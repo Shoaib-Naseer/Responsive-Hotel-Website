@@ -1,47 +1,84 @@
 @media (max-width : 1199px) {
+
     /* header */
     .navbar-expand-lg .navbar-nav {
         align-items: center;
     }
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: .875rem 0;
-        font-size: .875rem  !important;
+        font-size: .875rem !important;
     }
+
     .main-btn {
         font-size: .875rem;
+    }
+
+    /* Booking Area */
+
+    .booking-area {
+        padding: 3rem .625rem !important;
+    }
+
+    .booking-area .main-btn {
+        padding-left: 0.4125rem !important;
+        padding-right: 0.4125rem !important;
+        font-size: 0.85rem;
     }
 }
 
 @media (max-width : 991px) {
+
     /* Custom CSS */
     section {
-        padding: 1.875rem 0;    
+        padding: 1.875rem 0;
     }
+
     /* Navbar */
     .header-scrolled {
         height: auto;
     }
+
     .header-wrapper .menu-navbar-nav {
         text-align: center;
         padding-bottom: .9375rem;
     }
+    .banner-wrapper {
+        height: 25.625rem !important;
+    }
+    .booking-area {
+        padding: 3.125rem 1.875rem !important;
+    }
+
 }
 
 
 @media (max-width : 767px) {
+
     /* custom css */
     :root {
-         /* Font Sizes */
-    --fs-h5:1.25rem;
-    --fs-h3:1.75rem;
-    --fs-h1:1.875rem;
-    --fs-p:.8125rem;
+        /* Font Sizes */
+        --fs-h5: 1.25rem !important;
+        --fs-h3: 1.75rem !important;
+        --fs-h1: 1.875rem !important;
+        --fs-p: .8125rem !important;
 
-    /* Line Heights */
-    --lh-h5:1;
-    --lh-h3:2.1875rem;
-    --lh-h1:2.5rem;
-    --lh-p:1.5rem;
+        /* Line Heights */
+        --lh-h5: 1 !important;
+        --lh-h3: 2.1875rem !important;
+        --lh-h1: 2.5rem !important;
+        --lh-p: 1.5rem !important;
     }
-    
+
+    .container.booking-area {
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .banner-wrapper .swiper-pagination-bullets .swiper-pagination-bullet {
+        width: .5375rem !important;
+        height: .5375rem !important;
+        border: 0.025rem solid var(--bg-white) !important;
+    }
+
 }
