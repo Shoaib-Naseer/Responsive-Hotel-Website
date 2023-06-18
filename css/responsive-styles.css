@@ -50,6 +50,10 @@
         padding: 3.125rem 1.875rem !important;
     }
 
+    /* About Section */
+    .about-wrapper{
+        padding-top: 22rem !important;
+    }
 }
 
 
