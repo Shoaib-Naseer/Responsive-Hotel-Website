@@ -1,0 +1,47 @@
+@media (max-width : 1199px) {
+    /* header */
+    .navbar-expand-lg .navbar-nav {
+        align-items: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: .875rem 0;
+        font-size: .875rem  !important;
+    }
+    .main-btn {
+        font-size: .875rem;
+    }
+}
+
+@media (max-width : 991px) {
+    /* Custom CSS */
+    section {
+        padding: 1.875rem 0;    
+    }
+    /* Navbar */
+    .header-scrolled {
+        height: auto;
+    }
+    .header-wrapper .menu-navbar-nav {
+        text-align: center;
+        padding-bottom: .9375rem;
+    }
+}
+
+
+@media (max-width : 767px) {
+    /* custom css */
+    :root {
+         /* Font Sizes */
+    --fs-h5:1.25rem;
+    --fs-h3:1.75rem;
+    --fs-h1:1.875rem;
+    --fs-p:.8125rem;
+
+    /* Line Heights */
+    --lh-h5:1;
+    --lh-h3:2.1875rem;
+    --lh-h1:2.5rem;
+    --lh-p:1.5rem;
+    }
+    
+}
