@@ -25,40 +25,40 @@
 
 :root {
     /* background Colors */
-    --bg-primary : #021832;
-    --bg-secondary : #caa169;
-    --bg-color : #f4f4f4;
-    --bg-white : #fff;
-    --bg-black : #000;
+    --bg-primary: #021832;
+    --bg-secondary: #caa169;
+    --bg-color: #f4f4f4;
+    --bg-white: #fff;
+    --bg-black: #000;
 
 
-     /* Text Colors */
-    --ff-primary : 'Poppins',sans-serif;
-    --ff-secondary : 'Oswald',sans-serif;
-    --text-primary : #021823;
-    --text-secondary : #caa169;
-    --text-white : #fff;
-    --text-black : #151515;
-    --text-gray : #e4e4e4;
+    /* Text Colors */
+    --ff-primary: 'Poppins', sans-serif;
+    --ff-secondary: 'Oswald', sans-serif;
+    --text-primary: #021823;
+    --text-secondary: #caa169;
+    --text-white: #fff;
+    --text-black: #151515;
+    --text-gray: #e4e4e4;
 
     /* Font Weights */
-    --fw-light:300;
+    --fw-light: 300;
     --fw-regular: 400;
     --fw-semi-bold: 500;
     --fw-bold: 700;
 
     /* Font Sizes */
     --fs-h6: .875rem;
-    --fs-h5:1.5rem;
-    --fs-h3:2.25rem;
-    --fs-h1:3.75rem;
-    --fs-p:1rem;
+    --fs-h5: 1.5rem;
+    --fs-h3: 2.25rem;
+    --fs-h1: 3.75rem;
+    --fs-p: 1rem;
 
     /* Line Heights */
-    --lh-h5:1;
-    --lh-h3:2.25rem;
-    --lh-h1:4.25rem;
-    --lh-p:1.625rem;
+    --lh-h5: 1;
+    --lh-h3: 2.25rem;
+    --lh-h1: 4.25rem;
+    --lh-p: 1.625rem;
 
 
 }
@@ -71,12 +71,15 @@ body {
 a {
     text-decoration: none;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 3.75rem;
 }
+
 ::-webkit-scrollbar-track {
     background-color: var(--bg-secondary);
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: var(--bg-primary);
 }
@@ -136,7 +139,7 @@ h5 {
     font-family: var(--ff-secondary);
 }
 
-h6{
+h6 {
     font-size: var(--fs-h6);
     color: var(--text-primary);
     margin-bottom: .9375rem;
@@ -145,13 +148,13 @@ h6{
     font-family: var(--ff-secondary);
 }
 
-p{
+p {
     font-size: var(--fs-p);
     color: var(--text-black);
     line-height: var(--lh-p);
 }
 
-.section-title::after{
+.section-title::after {
     content: "";
     background-image: url('../images/title-icon.webp');
     background-position: center center;
@@ -163,7 +166,8 @@ p{
 
 
 /* 2. Navbar */
-.header-wrapper .navbar{
+
+.header-wrapper .navbar {
     padding: .9375rem 0;
     background-color: var(--bg-white);
     -webkit-box-shadow: 0 0.5rem .375rem rgb(0 0 0 / 40%);
@@ -179,7 +183,7 @@ p{
 }
 
 .header-wrapper .navbar-toggler:focus {
-    box-shadow: none;    
+    box-shadow: none;
 }
 
 .header-wrapper .nav-item {
@@ -192,6 +196,7 @@ p{
     color: var(--text-primary);
     display: inline-block;
 }
+
 .header-wrapper .nav-item .nav-link:hover,
 .header-wrapper .nav-item .nav-link:active {
     color: var(--text-secondary);
@@ -208,13 +213,71 @@ p{
 }
 
 @keyframes fadeInDown {
-    0%{
+    0% {
         top: -30%;
     }
-    50%{
+
+    50% {
         top: -15%;
     }
-    100%{
+
+    100% {
         top: 0;
     }
+}
+
+/* 3 Banner */
+
+.banner-wrapper {
+    height: 40.25rem;
+    position: relative;
+}
+
+.banner-wrapper .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-wrapper .swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Adding a slightly dark background over banner section */
+.banner-wrapper .swiper-slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:var(--bg-black) ;
+    opacity: .5;
+    z-index: -2;
+}
+
+.banner-wrapper .swiper-pagination-bullets .swiper-pagination-bullet {
+    width: .7375rem;
+    height: .7375rem;
+    background-color: var(--bg-secondary);
+    border: 0.125rem solid var(--bg-white);
+}
+
+.banner-wrapper .swiper .slide-caption {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 999;
+}
+
+.banner-wrapper .swiper .slide-caption p{
+    max-width: 37.5rem;
+    margin: 0 auto;
+    color: var(--text-white);
 }
