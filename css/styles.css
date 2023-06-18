@@ -303,3 +303,10 @@ p {
     font-weight: var(--fw-semi-bold);
     color: var(--text-black);
 }
+
+
+/* 3 About Section */
+
+.about-wrapper{
+    padding-top: 10rem;
+}
