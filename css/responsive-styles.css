@@ -25,6 +25,20 @@
         padding-right: 0.4125rem !important;
         font-size: 0.85rem;
     }
+
+    /* Rooms */
+
+    .room-items .room-content {
+        padding: .5rem .875rem !important;
+    }
+
+    .room-items .room-content h5 {
+        font-size: 1.2rem !important;
+    }
+
+    .room-items .room-content p {
+        font-size: .75rem !important;
+    }
 }
 
 @media (max-width : 991px) {
@@ -54,6 +68,25 @@
     .about-wrapper{
         padding-top: 22rem !important;
     }
+
+
+
+        /* services section */
+    
+.service-item-wrap ul li:nth-child(1){
+    margin-left: 0 !important;
+}
+
+.service-item-wrap ul li:nth-child(2){
+    margin-left: 0 !important;
+}
+
+.service-item-wrap ul li:nth-child(3){
+    margin-left: 0 !important;
+}
+.service-item-wrap ul li:nth-child(4){
+    margin-left: 0 !important;
+}
 }
 
 
@@ -85,4 +118,37 @@
         border: 0.025rem solid var(--bg-white) !important;
     }
 
+     /* Rooms */
+
+     .rooms-wrapper .room-items-wrap {
+        top: 15% !important;
+     }
+     .room-items .room-content {
+        padding: 2rem 1.875rem !important;
+    }
+
+    .room-items .room-content h5 {
+        font-size: 1.5rem !important;
+    }
+
+    .room-items .room-content p {
+        font-size: 1rem !important;
+    }
+
+    /* services section */
+    
+.service-item-wrap ul li:nth-child(1){
+    margin-left: 0 !important;
+}
+
+.service-item-wrap ul li:nth-child(2){
+    margin-left: 0 !important;
+}
+
+.service-item-wrap ul li:nth-child(3){
+    margin-left: 0 !important;
+}
+.service-item-wrap ul li:nth-child(4){
+    margin-left: 0 !important;
+}
 }
