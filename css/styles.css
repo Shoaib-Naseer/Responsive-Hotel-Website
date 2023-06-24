@@ -455,3 +455,50 @@ p {
     z-index: 3;
     color: var(--text-white);
 }
+
+/* Teams section */
+
+.team-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-info {
+    background-color:var(--bg-secondary);
+    color: var(--text-white);
+    text-align: center;
+    position: relative;
+    padding: 1.25rem;
+    margin-bottom: -6.8rem;
+    transition: all 0.3s ease-in-out;
+}
+.team-info > h5 , .team-info > p {
+    color: var(--text-white);
+}
+
+.team-info .social-network li a {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    display: block;
+    border-radius: 50%;
+    font-size: .9375rem;
+    color: var(--text-white);
+    border: .0625rem solid var(--bg-white);
+}
+
+.team-card:hover .team-info {
+    margin-bottom: -2.5rem;
+}
+
+.team-wrapper .team-info .social-network {
+    min-width: 120%;
+    transition: all .3s ease-in-out;
+    padding: 1.25rem;
+    margin-left: -1.25rem;
+    background-color: var(--bg-primary);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
