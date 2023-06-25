@@ -1,4 +1,4 @@
-name: Lint
+name: Lint and Format
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  lint:
+  lint-and-format:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,10 +15,20 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install --global htmlhint csslint
+          npm install --global htmlhint csslint prettier
 
       - name: Run HTML linting
         run: htmlhint .
 
       - name: Run CSS linting
         run: csslint .
+
+      - name: Format code with Prettier
+        run: prettier --write .
+
+      - name: Commit formatted code
+        run: |
+          git config user.name "Your GitHub Username"
+          git config user.email "Your GitHub Email"
+          git add .
+          git commit -m "Format code with Prettier" || echo "No changes to commit"
