@@ -12,7 +12,7 @@ A responsive hotel website showcasing various sections including Navigation, Abo
 
 ## Live Demo
 
-A live demo of the website can be accessed [here](https://www.example.com).
+A live demo of the website can be accessed [here](https://resonant-dasik-d222c4.netlify.app/).
 
 ## Technologies Used
 
