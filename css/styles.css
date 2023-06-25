@@ -581,3 +581,25 @@ p {
 .gallery-wrapper .gallery-item:hover .gallery-item-content {
     opacity: 1;
 }
+
+/* 9 Pricing Section */
+.pricing-wrapper .card {
+    box-shadow: 0 .125rem .25rem rgb(34 30 31 / 40%);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.pricing-wrapper .card:hover {
+    background-color: var(--bg-secondary);
+}
+
+.pricing-wrapper .card:hover h5,
+.pricing-wrapper .card:hover h3,
+.pricing-wrapper .card:hover p {
+    color: var(--text-white);
+}
+
+.pricing-wrapper .card:hover .main-btn {
+    color: var(--text-white);
+    border-color: var(--bg-white);
+}
