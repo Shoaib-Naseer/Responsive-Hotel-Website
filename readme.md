@@ -4,9 +4,8 @@ A responsive hotel website showcasing various sections including Navigation, Abo
 
 ## Screenshots
 
-![Desktop Design](https://github.com/Shoaib-Naseer/Responsive-Hotel-Website/blob/main/screenshots/mobile.png)
+![Desktop Design](https://github.com/Shoaib-Naseer/Responsive-Hotel-Website/blob/main/screenshots/desktop.png)
 
-![Mobile Design](https://github.com/Shoaib-Naseer/Responsive-Hotel-Website/blob/main/screenshots/desktop.png)
 
 
 
