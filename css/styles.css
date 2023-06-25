@@ -603,3 +603,12 @@ p {
     color: var(--text-white);
     border-color: var(--bg-white);
 }
+
+/* Blogs Section */
+.blog-wrapper .card {
+    overflow: hidden;
+}
+.blog-wrapper .blog-content {
+    transform: translate(10%,-25%);
+    box-shadow: 0 .125rem .25rem rgb(34 30 31/40%);
+} 
