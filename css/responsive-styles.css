@@ -57,36 +57,46 @@
         text-align: center;
         padding-bottom: .9375rem;
     }
+
     .banner-wrapper {
         height: 25.625rem !important;
     }
+
     .booking-area {
         padding: 3.125rem 1.875rem !important;
     }
 
     /* About Section */
-    .about-wrapper{
+    .about-wrapper {
         padding-top: 22rem !important;
     }
 
 
 
-        /* services section */
-    
-.service-item-wrap ul li:nth-child(1){
-    margin-left: 0 !important;
-}
+    /* services section */
 
-.service-item-wrap ul li:nth-child(2){
-    margin-left: 0 !important;
-}
+    .service-item-wrap ul li:nth-child(1) {
+        margin-left: 0 !important;
+    }
 
-.service-item-wrap ul li:nth-child(3){
-    margin-left: 0 !important;
-}
-.service-item-wrap ul li:nth-child(4){
-    margin-left: 0 !important;
-}
+    .service-item-wrap ul li:nth-child(2) {
+        margin-left: 0 !important;
+    }
+
+    .service-item-wrap ul li:nth-child(3) {
+        margin-left: 0 !important;
+    }
+
+    .service-item-wrap ul li:nth-child(4) {
+        margin-left: 0 !important;
+    }
+
+
+    /* Blogs Section */
+
+    .blog-wrapper .blog-content {
+        transform: translate(0%,0%) !important;
+    }
 }
 
 
@@ -118,12 +128,13 @@
         border: 0.025rem solid var(--bg-white) !important;
     }
 
-     /* Rooms */
+    /* Rooms */
 
-     .rooms-wrapper .room-items-wrap {
+    .rooms-wrapper .room-items-wrap {
         top: 15% !important;
-     }
-     .room-items .room-content {
+    }
+
+    .room-items .room-content {
         padding: 2rem 1.875rem !important;
     }
 
@@ -136,19 +147,20 @@
     }
 
     /* services section */
-    
-.service-item-wrap ul li:nth-child(1){
-    margin-left: 0 !important;
-}
 
-.service-item-wrap ul li:nth-child(2){
-    margin-left: 0 !important;
-}
+    .service-item-wrap ul li:nth-child(1) {
+        margin-left: 0 !important;
+    }
 
-.service-item-wrap ul li:nth-child(3){
-    margin-left: 0 !important;
-}
-.service-item-wrap ul li:nth-child(4){
-    margin-left: 0 !important;
-}
+    .service-item-wrap ul li:nth-child(2) {
+        margin-left: 0 !important;
+    }
+
+    .service-item-wrap ul li:nth-child(3) {
+        margin-left: 0 !important;
+    }
+
+    .service-item-wrap ul li:nth-child(4) {
+        margin-left: 0 !important;
+    }
 }
