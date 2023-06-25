@@ -88,7 +88,7 @@ let partnerSwiper = new Swiper(".our-partner", {
     delay: 1000,
   },
   breakpoints: {
-    991: { slidesPerView: 4, spaceBetween: 10 },
+    991: { slidesPerView: 5, spaceBetween: 10 },
     767: {
       slidesPerView: 3,
       spaceBetween: 10,

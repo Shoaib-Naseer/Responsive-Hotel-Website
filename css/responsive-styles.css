@@ -163,4 +163,9 @@
     .service-item-wrap ul li:nth-child(4) {
         margin-left: 0 !important;
     }
+
+    /* Footer section */
+    .footer-wrapper > div {
+        padding: 0 1.875rem;
+    }
 }
